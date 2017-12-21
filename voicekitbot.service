@@ -1,0 +1,10 @@
+Description=Voicekitbot
+
+[Service]
+ExecStart=/bin/bash -c '/home/pi/AIY-voice-kit-python/env/bin/python3 -u voicekitbot/voicekitbot.py'
+WorkingDirectory=/home/pi/AIY-voice-kit-python
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
