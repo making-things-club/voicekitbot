@@ -10,6 +10,12 @@ Once this is set up, you can control Spotify using the following commands:
 * "OK Google, pause music"
 * "OK Google, skip track"
 
+To find out all available commands:
+
+* "OK Google, what can we do"
+
+(Then look in the Slack bot debug channel to see a list)
+
 ## Installation
 
 * Set up a Google Voice Kit with a Raspberry Pi, following the [online instructions](https://aiyprojects.withgoogle.com/voice)
